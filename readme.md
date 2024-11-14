@@ -1,3 +1,5 @@
+# Image Classification using VGG-16
+### Assignment 4
 1. In this question, you have to compare the performance on a binary classification task of the following models: 
 
     - VGG (1 block)   
@@ -52,15 +54,14 @@
 
     Now, create an MLP model with parameters comparable to VGG16 and compare your performance with the other models in the table. You can choose the distribution of the number of neurons and the number of layers. What can you conclude? **[0.5 marks]**
 
-Finally, use any image generation tool of your choice. Provide a prompt that helps easily classify your image; and provide a prompt that creates a hard to correctly classify image. Show the performance of various models on these sets of images. Minimum 4 such images can be created. Class A: easy, Class A: hard; Class B: easy, Class B: hard **[1 mark]**
+    Finally, use any image generation tool of your choice. Provide a prompt that helps easily classify your image; and provide a prompt that creates a hard to correctly classify image. Show the    performance of various models on these sets of images. Minimum 4 such images can be created. Class A: easy, Class A: hard; Class B: easy, Class B: hard **[1 mark]**
 
 2. In this question you will implement and compare the following different KNN variants (see: https://youtu.be/C9HQLyXwEw0?t=3382)
+    - LSH **(1 marks)**  
+    - KD-tree **(1 marks)**  
+    - Naive version of KNN **(0.5 marks)**
 
-1. LSH **(1 marks)**  
-   2. KD-tree **(1 marks)**  
-   3. Naive version of KNN **(0.5 marks)**
+    Vary dataset size $N$, number of dimensions $D$ to do training and testing time and memory comparison for finding $K$ nearest neighbours. **(1 mark)**  
+    Now, in a 2d randomly generated dataset visually show how many of the $K$ closest neighbors appx. $K$ NN methods miss out due to their approximate nature. 
 
-Vary dataset size $N$, number of dimensions $D$ to do training and testing time and memory comparison for finding $K$ nearest neighbours. **(1 mark)**  
-Now, in a 2d randomly generated dataset visually show how many of the $K$ closest neighbors appx. $K$ NN methods miss out due to their approximate nature. 
-
-Also show the partitions in the 2d space. **(0.5 marks)**  
+    Also show the partitions in the 2d space. **(0.5 marks)**  
